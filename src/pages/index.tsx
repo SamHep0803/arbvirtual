@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             width={200}
             height={200}
           />
-          <h1 className="text-6xl font-bold">
+          <h1 className="text-6xl ">
             Welcome to{" "}
             <span className="text-[#ffcb52]">
               Arabian Virtual.
@@ -29,18 +29,18 @@ const Home: NextPage = () => {
             Get started by registering below. &darr;
           </p>
 
-          <div className="p-8 flex max-w-xs flex-wrap items-center justify-between sm:w-full">
+          <div className="p-4 flex max-w-xs flex-wrap items-center justify-between sm:w-full">
             <a
               href="https://vamsys.io/register/arabian"
-              className="mt-2 text-white rounded-xl border-2 border-[#ffcb52]  px-4 py-3 text-left hover:bg-yellow-600 focus:bg-yellow-600 transition"
+              className="mt-2 text-white rounded-xl border-2 border-[#ff9320] w-32 px-4 py-3 text-left hover:bg-[#ff9320] focus:bg-[#ff9320] transition"
             >
-              <h3 className="text-2xl font-normal">Register</h3>
+              <h3 className="text-2xl font-normal text-center">Register</h3>
             </a>
             <a
               href="https://vamsys.io/login/arabian"
-              className="mt-2 rounded-xl border-2 border-[#ffcb52] px-4 py-3 text-left hover:bg-yellow-600 focus:bg-yellow-600 transition"
+              className="mt-2 text-white rounded-xl border-2 border-[#ff9320] w-32 px-4 py-3 text-left hover:bg-[#ff9320] focus:bg-[#ff9320] transition"
             >
-              <h3 className="text-2xl font-normal">Login</h3>
+              <h3 className="text-2xl font-normal text-center">Login</h3>
             </a>
           </div>
         </main>

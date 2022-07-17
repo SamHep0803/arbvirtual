@@ -9,7 +9,7 @@ module.exports = {
 				"main-img": "url('/bg.png')",
 			},
 			fontFamily: {
-				sans: ["Proxima Nova", ...defaultTheme.fontFamily.sans],
+				sans: ["Roboto", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
